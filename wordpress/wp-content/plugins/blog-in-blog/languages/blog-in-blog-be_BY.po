@@ -1,0 +1,124 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Tim Hodson
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: BIB\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/blog-in-blog\n"
+"POT-Creation-Date: 2009-07-29 17:32+0000\n"
+"PO-Revision-Date: 2010-02-17 19:54+0200\n"
+"Last-Translator: Fat Cow <zhr@tut.by>\n"
+"Language-Team: FatCow <zhr@tut.byF>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Belarusian\n"
+"X-Poedit-Country: BELARUS\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"Plural-Forms: nplurals=2; plural=1;\n"
+
+#: blog-in-blog.php:60
+msgid "Page"
+msgstr "Страница"
+
+#: blog-in-blog.php:98
+msgid "more"
+msgstr "больше"
+
+#: blog-in-blog.php:207
+msgid "Comments"
+msgstr "Комментарии"
+
+#: blog-in-blog.php:208
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d комм."
+msgstr[1] "%d комм."
+
+#: blog-in-blog.php:213
+msgid "Respond"
+msgstr "Ответить"
+
+#: blog-in-blog.php:214
+msgid "Leave a response "
+msgstr "Оставить ответ"
+
+#: blog-in-blog.php:219
+msgid "Comments are closed"
+msgstr "Комментарии закрыты"
+
+#: blog-in-blog.php:497
+msgid "See full notes at"
+msgstr "Спотреть полные заметки на"
+
+#: blog-in-blog.php:505
+msgid "Category id to hide from homepage"
+msgstr "ID категории скрыт на домашней странице"
+
+#: blog-in-blog.php:535
+msgid "Show all categories"
+msgstr "Показать все категории"
+
+#: blog-in-blog.php:540
+msgid "Show dots (elipsis) after n pages"
+msgstr "Показать точки (эллипсы) после n страниц"
+
+#: blog-in-blog.php:543
+msgid "Text to show as \"previous page\" link"
+msgstr "Показывать текст как ссылку \"предыдущая страница\" "
+
+#: blog-in-blog.php:546
+msgid "Text to show as \"next page\" link"
+msgstr "Показывать текст как ссылку \"след. страница\" "
+
+#: blog-in-blog.php:549
+msgid "Text to show preceeding page 1. e.g. Post (Post 1, 2, 3) or Page (Page 1, 2, 3) etc"
+msgstr "Текст для показа предыд. страницы 1. например Post (Почтовые 1, 2, 3) или страницы (1, 2, 3) и т.д."
+
+#: blog-in-blog.php:552
+msgid "The characters to show between page links, e.g. \",\" or \"|\""
+msgstr "Символы для показа между ссылок между страницами , например, \",\" или  \"|\""
+
+#: blog-in-blog.php:555
+msgid "Style for current page e.g. font-weight:bold;"
+msgstr "Стиль на текущей странице, например. font-weight:bold;"
+
+#: blog-in-blog.php:557
+msgid "Style for non current page e.g. color:grey;"
+msgstr "Стиль не для текущей страницы, напр. color:grey;"
+
+#: blog-in-blog.php:559
+msgid "The name of the template for a category post. If not set will default to /wp_plugins/blog-in-blog/bib_post_template.tpl. The default serves as an example."
+msgstr "Название шаблона для категории поста. Если он не установлен по умолчанию в /wp_plugins/blog-in-blog/bib_post_template.tpl. Умолчанию служит в качестве примера."
+
+#: blog-in-blog.php:562
+msgid "Text for the more link if you use the &lt;!--more--&gt; tag in your posts."
+msgstr "Текст для ссылки для продолжения, если Вы используете &lt;! - Подробнее -&gt; в разделе постов."
+
+#: blog-in-blog.php:570
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#. Plugin Name of an extension
+msgid "Blog in Blog"
+msgstr "Blog in Blog"
+
+#. Plugin URI of an extension
+msgid "http://informationtakesover.co.uk/blog-in-blog-wordpress-plugin/"
+msgstr "http://informationtakesover.co.uk/blog-in-blog-wordpress-plugin/"
+
+#. Description of an extension
+msgid "Create a blog within a blog using a category. This plugin basically shows posts in a category on a page using shortcodes."
+msgstr "Создать блог в блог с помощью категорий. Этот плагин показывает основные посты в категории на странице с помощью кратких кодов."
+
+#. Author of an extension
+msgid "Tim Hodson"
+msgstr "Tim Hodson"
+
+#. Author URI of an extension
+msgid "http://informationtakesover.co.uk"
+msgstr "http://informationtakesover.co.uk"
+

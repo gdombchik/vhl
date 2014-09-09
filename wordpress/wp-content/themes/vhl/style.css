@@ -1,0 +1,822 @@
+/*
+Theme Name:     VHL
+Theme URI:      http://vhl.org
+Description:    Child theme for the Responsive by ThemeID
+Author:         Ky Inthavong
+Author URI:     http://pbjweb.com
+Template:       responsive
+Version:        2.0
+*/
+
+@import url("../responsive/style.css");
+
+/* =Globals
+-------------------------------------------------------------- */
+#container {
+   margin: 0 auto;
+   max-width: 960px;
+   padding: 0px 25px;
+}
+
+#wrapper {
+   -webkit-border-radius: 0px;
+   -moz-border-radius: 0px;
+   background-color: #fff;
+   border: 0; /*1px solid #d6d6d6; */
+   border-radius: 0px;
+   clear: both;
+   margin: 0px auto 0px auto;
+/*   padding: 0 20px 20px 20px; */
+   position: relative;
+}
+
+.home #wrapper {
+   margin-top:0;
+   background-color: #FFFFFF;
+}
+
+.home #wrapper #content {
+  width:100%;
+  padding:0 0 20px 0;
+  background-color: #FFFFFF; 
+}
+
+#header {
+   margin: 0;
+   background:#FFFFFF;
+}
+
+#footer {
+   clear: both;
+   margin: 0 auto;
+   max-width: 960px;
+   padding: 0 25px 0 25px;
+}
+
+#footer-wrapper {
+   margin: 0;
+   padding: 0;
+   background:#FFFFFF;
+}
+
+
+/* =Headings
+-------------------------------------------------------------- */
+h1, h2, h3, h4, h5, h6, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+   font-weight: bold;
+   line-height: 1.3em;
+    word-wrap: break-word;
+}
+
+h1 {
+/*   color: #404040; */
+   font-size: 1.6em;
+}
+
+h1 .post-title {
+  margin-top:0px; 
+}
+
+h2 {
+   color: #404040;
+   font-size: 1.4em;
+}
+
+h3 {
+   font-size: 1.3em;
+}
+
+h4 {
+   font-size: 1.1em;
+}
+
+h5 {
+   font-size: 1.1em;
+}
+
+h6 {
+   font-size: 1em;
+   text-transform: uppercase;
+}
+
+/* =Breadcrumb Lists
+-------------------------------------------------------------- */
+.breadcrumb-list {
+   font-size: 12px;
+   padding: 10px 0 0 0;
+}
+
+/* =Header
+-------------------------------------------------------------- */
+#logo {
+   float: left;
+   margin: 0;
+}
+
+.site-name {
+   display: block;
+   font-size: 2em;
+   padding-top: 20px;
+}
+
+.site-name a {
+   font-weight: 700;
+}
+
+.site-description {
+   display: block;
+   font-size: 14px;
+   margin: 10px 33px 10px 0;
+}
+
+/* Area above the menu for search and various icons */
+#above_menu {
+   margin: 0 0 15px 0;
+   padding: 0 0 25px 0;
+   width:100%;
+}
+
+#social_media {
+   width:60%;
+   float:left;
+   padding:5px 0 0 75px;
+}
+
+#donate {
+   width:10%;
+   padding-top:5px;
+   float:left;
+   text-align:center;
+}
+
+#header form {
+ margin:5px;
+ padding:0;  
+}
+
+#header input#s:focus {
+   color:#ccc;
+}
+
+input#searchsubmit {
+   display:none;
+   width:30px;
+   padding:2px;
+   margin-right:10px;
+   background:#a8a8a8;
+   background:-moz-linear-gradient(#CCC,#999);
+   background:-webkit-linear-gradient(#CCC,#999);
+   background:-o-linear-gradient(#CCC,#999);
+   background:-ms-linear-gradient(#CCC,#999);
+   background:linear-gradient(#CCC,#999);
+   border:#999 1px solid;
+   color:black;
+   text-align:center;
+}
+
+/* =Content
+-------------------------------------------------------------- */
+#content {
+   margin-bottom: 20px;
+}
+
+#content-full {
+   margin-bottom: 20px;
+}
+
+#content-blog {
+   margin-bottom: 20px;
+}
+
+#content-images {
+   margin-bottom: 20px;
+}
+
+#content-archive {
+   margin-bottom: 20px;
+}
+
+#content-sitemap {
+   margin-bottom: 20px;
+}
+
+#content-sitemap a {
+   font-size: 12px;
+}
+
+#content .sticky {
+   clear: both;
+}
+
+#content .sticky p {}
+
+#content .post-entry p {
+  font-size: 90%; 
+}
+
+/* =Top Menu
+-------------------------------------------------------------- */
+.top-menu {
+   float: right;
+   margin: 10px 0 0 0;
+}
+
+.top-menu li {
+   display: inline;
+   list-style-type: none;
+}
+
+.top-menu li a {
+   border-left: 1px solid #ccc;
+   color: #333;
+   font-size: 11px;
+   padding: 0 4px 0 6px;
+}
+
+.top-menu > li:first-child > a {
+   border-left: none;
+}
+
+.top-menu li a:hover {
+   color: #333;
+}
+
+/* =Primary Menu
+-------------------------------------------------------------- */
+.menu {
+   background-color: #D2DB7B;
+   
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#D2DB7B), to(#D2DB7B));
+   background-image: -webkit-linear-gradient(top, #D2DB7B, #D2DB7B);
+   background-image: -moz-linear-gradient(top, #D2DB7B, #D2DB7B);
+   background-image: -ms-linear-gradient(top, #D2DB7B, #D2DB7B);
+   background-image: -o-linear-gradient(top, #D2DB7B, #D2DB7B);
+   background-image: linear-gradient(top, #D2DB7B, #D2DB7B);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D2DB7B, endColorstr=#D2DB7B);
+   
+   clear: both;
+   margin: 0 auto;
+}
+
+.menu, 
+.menu ul {
+   display: block;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+
+.menu li {
+   border: 0;
+   display: block;
+   float: left;
+   margin: 0;
+   padding: 0;
+   position: relative;
+   z-index: 5;
+}
+
+.menu li:hover {
+   white-space: normal;
+   z-index: 10000;
+}
+
+.menu li li {
+   float: none;
+}
+
+.menu ul {
+   left: 0;
+   position: absolute;
+   top: 0;
+   visibility: hidden;
+   z-index: 10;
+}
+
+.menu li:hover > ul {
+   top: 100%;
+   visibility: visible;
+}
+
+.menu li li:hover > ul {
+   left: 100%;
+   top: 0;
+}
+
+.menu:after, 
+.menu ul:after {
+   clear: both;
+   content: '.';
+   display: block;
+   height: 0;
+   overflow: hidden;
+   visibility: hidden;
+}
+
+.menu, 
+.menu ul {
+   min-height: 0;
+}
+
+.menu ul {
+   margin: -10px 0 0 -10px;
+   padding: 10px 10px 10px;
+}
+
+.menu ul ul {
+   margin: -30px 0 0 -30px;
+   padding: 30px 10px 10px 10px;
+}
+
+.menu ul li a:hover, 
+.menu li li a:hover {
+   color: #484848;
+   text-decoration: none;
+}
+
+.menu ul {
+   min-width: 15em;
+   width: auto;
+}
+
+.menu a {
+   border-left: 2px solid #FFFFFF;
+   color: #000000;
+   cursor: pointer;
+   display: block;
+   font-size: 13px;
+   font-weight: bold;
+word-wrap: break-word;
+   height: 45px;
+   line-height: 45px;
+   margin: 0;
+   padding: 0 0.9em;
+   position: relative;
+   text-decoration: none;
+   text-shadow: none /* 0 1px 1px #404040; */  
+}
+
+.menu a:hover {
+   background-color: #D2DB7B;
+/*   
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#D2DB7B), to(#363636));
+   background-image: -webkit-linear-gradient(top, #D2DB7B, #363636);
+   background-image: -moz-linear-gradient(top, #D2DB7B, #363636);
+   background-image: -ms-linear-gradient(top, #D2DB7B, #363636);
+   background-image: -o-linear-gradient(top, #D2DB7B, #363636);
+   background-image: linear-gradient(top, #D2DB7B, #363636);
+*/   
+   color: #fff;
+/*    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#D2DB7B, endColorstr=#363636); */
+}
+
+.menu .current_page_item a {
+   background-color: #D2DB7B;
+   color:#FFFFFF;
+}
+
+.home .menu .current_page_item a {
+   background-color: transparent;
+}
+
+.menu li li {
+   background: #fff;
+   background-image: none;
+   border: 1px solid #b2b2b2;
+   border-top: none;
+   color: #444;
+   filter: none;
+   width: auto;
+}
+
+.menu li li a {
+   background: transparent !important;
+   border: none;
+   color: #444;
+   font-size: 12px;
+   font-weight: 400;
+   height: auto;
+   height: 20px;
+   line-height: 20px;
+   padding: 5px 10px;
+   text-shadow: none;
+   white-space: nowrap;
+}
+
+.menu li li a:hover {
+   background: #f5f5f5 !important;
+   background-image: none;
+   border: none;
+   color: #444;
+   filter: none;
+}
+
+.menu ul > li + li {
+   border-top: 0;
+}
+
+.menu li li:hover > ul {
+   left: 100%;
+   top: 0;
+}
+
+.menu > li:first-child > a {
+   border-left: none;
+}
+
+/* =Primary Main Menu IE Fixes (Modernizr)
+-------------------------------------------------------------- */
+.ie7 .menu ul {
+   background: url(images/ie7-fix.gif) repeat;
+}
+
+.ie7 .menu li li a  {
+    min-width: 100%;
+}
+
+/*---------- Main Page Content areas --------*/
+#main_mission {
+   float:left; 
+   padding: 10px 15px 0 0; 
+   width: 40%; 
+   list-style: none;
+   font-size: 90%;
+}
+
+.main-mission {
+   color: #727ba2;
+   font-weight:regular;
+   font-family: Verdana;
+   font-style: regular;
+   font-size: 13pt;
+}
+
+.main-mission h3 {
+   font-size:19pt;
+   color: #727ba2;
+   padding:0;
+   margin: 0;  
+   font-family: Verdana;
+   font-style: regular;
+   margin-bottom:15px;
+}
+
+#faces_of_vhl {
+   float:left; 
+   padding: 10px 20px 0 0; 
+   width: 22%;  
+   list-style: none;
+}
+
+.faces-vhl {
+   color: #9eb8cd;
+}
+
+.faces-vhl h3 {
+   color: #9eb8cd;
+   font-size: 16pt;
+   padding:0;
+   margin: 0;  
+}
+
+#testimonials {
+   float:left; 
+   width: 35%;  
+   padding: 10px 15px 0 0;
+   list-style: none;
+   font-family: Georgia
+   font-size: 90%;
+   font-style: italic;
+}
+
+.testimonials {
+   font-style: italic;
+   color: #8e746a;
+   font-size: 10pt;
+   font-family: Georgia;
+   line-height: 1.3em;
+   margin:0;
+   padding:0;
+}
+
+#testimonial-author {
+   padding:10px 0 0 0;
+   font-style: normal;
+   font-family: Georgia;
+}
+
+#main_slider_content {
+   float:left; 
+   padding: 25px 25px 0 0; 
+   width: 287px; 
+   list-style: none;
+   font-size: 90%;
+}
+
+.main_slider_title {
+   margin:0;
+}
+
+.main_slider_title h3 {
+   background: #f2f3d8;
+   padding:5px;
+   width:100%;
+}
+
+.main_slider {
+   width:100%; 
+}
+
+.main_slider h3 {
+   background: #f2f3d8;
+   padding:5px;
+   margin-bottom:20px;
+}
+
+.main_slider #meteor-slideshow {	
+	margin-left:11%
+}
+
+#main_donate_content {
+   float:left; 
+   padding: 25px 25px 0 0; 
+ 
+   list-style: none;
+   font-size: 90%;
+}
+
+.main_donate {
+}
+
+.main_donate h3 {
+   background: #f2f3d8;
+   padding:5px;
+   margin-bottom:20px;
+   width:111%;
+}
+
+
+#main_events_content {
+   float:left; 
+   padding: 25px 25px 0 0; 
+ 
+   list-style: none;
+   font-size: 90%;
+}
+
+.main_events {
+   
+}
+
+.main_events h3 {
+   background: #f2f3d8;
+   padding:5px;
+   margin-bottom: 20px;
+   width:111%;
+}
+
+#main_patients_content {
+   background:#f2f3d8; 
+   width:100%
+}
+
+.home_widget_1 h3 {
+   font-size:1.4em;
+}
+
+.home_widget_2 h3 {
+   font-size:1.4em;
+}
+
+.home_widget_3 h3 {
+   font-size:1.4em;
+}
+
+/*---------- End Main Page Content areas --------*/
+
+/* =Widgets
+-------------------------------------------------------------- */
+.widget-wrapper {
+   -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+   background-color: #FFFFFF;
+   border: 0; 
+   
+   border-radius: 0px;
+   font-size: 12px;
+
+   margin: 0;
+   padding: 0 20px 0 20px;
+}
+
+#widgets {
+   margin-top: 40px;
+}
+
+.home #widgets {
+   margin-top: 0;
+}
+
+#widgets a {
+   display: inline-block;
+   margin: 0;
+   padding: 0;
+   text-decoration: none;
+}
+
+#widgets #s {
+   width: 80%;
+}
+
+#widgets p,
+#widgets form {
+    margin: 0;
+}
+
+#widgets ul li {
+   margin-left: 10px;
+}
+
+#widgets ul li a {
+   display: inline;
+   text-decoration: none;
+}
+
+#widgets .widget-title img {
+   float: right;
+   height: 11px;
+   position: relative;
+   top: 4px;
+   width: 11px;
+}
+
+#widgets .rss-date {
+   line-height: 18px;
+   padding: 6px 12px;
+}
+
+#widgets .rssSummary {
+   padding: 10px;
+}
+
+#widgets cite {
+   font-style: normal;
+   line-height: 18px;
+   padding: 6px 12px;
+}
+
+#widgets .tagcloud,
+#widgets .textwidget {
+   display: block;
+   line-height: 1.5em;
+   margin: 0;
+   word-wrap: break-word;
+}
+
+#widgets .textwidget a {
+   display: inline;
+}
+
+#widgets ul .children {
+   border: none;
+   margin: 0 0 0 10%;
+   padding: 0;
+}
+
+#widgets ul .children li {
+   list-style: disc;
+}
+
+#widgets .author {
+   font-weight: 700;
+   padding-top: 4px;
+}
+
+.widget_archive select, #cat {
+   display: block;
+   margin: 0 15px 0 0;
+}
+
+/* Sidebar Menu on subpages */
+
+#menu_sidebar {
+   float:left;
+   width:235px;
+   margin-top:40px;
+   font-family: Arial, Verdana, "Trebuchet MS", sans-serif;
+   padding:0;
+   border:1px solid #f2f3d8;
+   background:#F6F6F6; 
+   margin-bottom:25px;
+}
+
+#menu_sidebar h1 {
+   font-weight:bold;
+   padding:7px 0 7px 10px;
+   font-size:16px;
+   width:225px;
+   background:#f2f3d8;
+   font-style: italic;
+}
+
+#menu_sidebar a {
+   display:block;
+   padding:0;
+   
+   text-decoration:none;
+   color:black;
+}
+
+#menu_sidebar a:hover {
+   background:#819E3C;
+/* font-weight:bold;*/
+   color:white; 
+   padding:0px;
+   
+   background: -moz-linear-gradient(top,  #819E3C 22%, #A4C654 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(22%,#819E3C), color-stop(100%,#A4C654)); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(top,  #819E3C 22%,#A4C654 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(top,  #819E3C 22%,#A4C654 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(top,  #819E3C 22%,#A4C654 100%); /* IE10+ */
+   background: linear-gradient(top,  #819E3C 22%,#A4C654 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#819E3C', endColorstr='#A4C654',GradientType=0 ); /* IE6-9 */
+      border-radius:6px;
+   text-decoration:none;
+}
+
+#menu_sidebar li.current_page_item > a {
+   background:#d2db7b;
+   color:#000;
+   text-decoration:none;
+}
+
+#menu_sidebar li.current_page_item > a {
+   text-decoration:none;
+   background:#819E3C;
+   font-weight:bold;
+   color:white; 
+   padding:5px;
+   
+   background: -moz-linear-gradient(top,  #819E3C 22%, #A4C654 100%); /* FF3.6+ */
+   background: -webkit-gradient(linear, left top, left bottom, color-stop(22%,#819E3C), color-stop(100%,#A4C654)); /* Chrome,Safari4+ */
+   background: -webkit-linear-gradient(top,  #819E3C 22%,#A4C654 100%); /* Chrome10+,Safari5.1+ */
+   background: -o-linear-gradient(top,  #819E3C 22%,#A4C654 100%); /* Opera 11.10+ */
+   background: -ms-linear-gradient(top,  #819E3C 22%,#A4C654 100%); /* IE10+ */
+   background: linear-gradient(top,  #819E3C 22%,#A4C654 100%); /* W3C */
+   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#819E3C', endColorstr='#A4C654',GradientType=0 ); /* IE6-9 */
+      border-radius:6px;
+}
+
+#menu_sidebar ul {
+}
+
+#menu_sidebar li {
+   list-style:none;
+}
+
+#menu_sidebar ul li {
+
+}
+
+#menu_sidebar ul li li {
+   list-style:none;
+   padding-left:0;
+   margin-left:0;
+}
+
+#menu_sidebar ul li li li {
+   list-style:none;
+   padding-left:0;
+   margin-left:0;
+}
+
+th, 
+td,
+table {
+  border: 0px solid #ddd; 
+}
+
+tbody {
+  padding:1;
+  margin:0;
+}
+th, td {
+  padding: 1;
+}
+
+input[type="text"],
+input[type="hidden"],
+input {
+  padding: 0;
+}
+
+form {
+  margin:0;
+  padding:0;
+}
+
+form div {
+  margin-bottom: 0;
+}
+
+hr { margin: 10px 0 10px 0}

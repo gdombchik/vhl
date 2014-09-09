@@ -1,0 +1,161 @@
+@charset "UTF-8";
+
+body {
+	background:#DCDCD0;
+}
+
+input[type="text"],
+input[type="password"],
+textarea,
+.wp-caption {
+	background:#FCFCF9;
+}
+
+.gallery-item {
+	background:#F9F9F3;
+}
+
+.gallery-item:hover  {
+	background:#F4F4EC;
+}
+
+#wrapper {
+	background:#EFEFE9;
+}
+
+#access {
+	background:#434339;
+	background:-moz-repeating-linear-gradient(#545449, #343429 40px);
+	background:-webkit-repeating-linear-gradient(#545449, #343429 40px);
+	background:-o-repeating-linear-gradient(#545449, #343429 40px);
+	background:-ms-repeating-linear-gradient(#545449, #343429 40px);
+	background:repeating-linear-gradient(#545449, #343429 40px);
+}
+
+#access a:hover {
+	background:#737369;
+	background:-moz-linear-gradient(#797970,#575750);
+	background:-webkit-linear-gradient(#797970,#575750);
+	background:-o-linear-gradient(#797970,#575750);
+	background:-ms-linear-gradient(#797970,#575750);
+	background:linear-gradient(#797970,#575750);
+}
+
+#access li.current_page_item > a,
+#header input#s {
+	background:#202019;
+	background:-moz-linear-gradient(#292920,#191910);
+	background:-webkit-linear-gradient(#292920,#191910);
+	background:-o-linear-gradient(#292920,#191910);
+	background:-ms-linear-gradient(#292920,#191910);
+	background:linear-gradient(#292920,#191910);
+}
+
+#access li li a {
+	background:#545449;
+	border-top:#5f5f4e 1px solid;
+}
+
+#access li li a:hover {
+	background:#454539;
+}
+
+#slider {
+	background:#E0E0D7;
+	background:-moz-linear-gradient(#E4E4DA,#DEDED3);
+	background:-webkit-linear-gradient(#E4E4DA,#DEDED3);
+	background:-o-linear-gradient(#E4E4DA,#DEDED3);
+	background:-ms-linear-gradient(#E4E4DA,#DEDED3);
+	background:linear-gradient(#E4E4DA,#DEDED3);
+}
+
+.flex-control-nav li a {
+	background:#e9e9e0;
+}
+
+.flex-control-nav li a.active,
+.flex-control-nav li a:hover {
+	background:#fefef9;
+}
+
+.paged .post,
+.archive .post,
+.search .post,
+.search .page,
+.entry-utility,
+.paged #posts-nav {
+	border-top:#EFEFE9 1px solid;
+}
+
+.single #location,
+.page #location,
+.error404 #location {
+	border-bottom:#EFEFE9 1px solid;
+}
+
+.wp-post-image,
+.format-status .avatar,
+.entry-author .avatar,
+.comment .avatar {
+	background:#E9E9E0;
+}
+
+.format-chat .entry-content p,
+.format-chat .entry-summary p {
+	background:#FCFCF9;
+}
+
+.format-chat .entry-content p:nth-child(odd),
+.format-chat .entry-summary p:nth-child(odd) {
+	background:#F3F3F0;
+}
+
+.entry-author,
+.comment-body {
+	background:#F9F9F3;
+}
+
+#footer-area {
+	background:#48483C;
+	background:-moz-linear-gradient(#545449, #343429);
+	background:-webkit-linear-gradient(#545449, #343429);
+	background:-o-linear-gradient(#545449, #343429);
+	background:-ms-linear-gradient(#545449, #343429);
+	background:linear-gradient(#545449, #343429);
+}
+
+#copyright {
+	background:#e7e7de;
+	background:-moz-linear-gradient(#E9E9E0, #E3E3DC);
+	background:-webkit-linear-gradient(#E9E9E0, #E3E3DC);
+	background:-o-linear-gradient(#E9E9E0, #E3E3DC);
+	background:-ms-linear-gradient(#E9E9E0, #E3E3DC);
+	background:linear-gradient(#E9E9E0, #E3E3DC);
+}
+
+@media screen and (max-width: 640px) {
+	
+	#access a,
+	#header #searchform {
+		background:#434339;
+		background:-moz-repeating-linear-gradient(#545449, #343429 40px);
+		background:-webkit-repeating-linear-gradient(#545449, #343429 40px);
+		background:-o-repeating-linear-gradient(#545449, #343429 40px);
+		background:-ms-repeating-linear-gradient(#545449, #343429 40px);
+		background:repeating-linear-gradient(#545449, #343429 40px);
+	}
+	
+	#access a:hover {
+		background:#898970;
+		background:-moz-linear-gradient(#979789,#797970);
+		background:-webkit-linear-gradient(#979789,#797970);
+		background:-o-linear-gradient(#979789,#797970);
+		background:-ms-linear-gradient(#979789,#797970);
+		background:linear-gradient(#979789,#797970);
+	}
+	
+	.flex-control-nav li a {
+		background:rgba(233, 233, 224, 0.75);
+	}
+	
+}

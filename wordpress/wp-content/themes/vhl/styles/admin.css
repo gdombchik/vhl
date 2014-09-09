@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+.color-scheme-label,
+.layout-label {
+	position:relative;
+}
+
+.color-scheme-label img,
+.layout-label img {
+	position:relative;
+	z-index:1;
+	padding:10px;
+	background:#f9f9f9;
+}
+
+.checked img {
+	background:#ff9999;
+}
+
+.color-scheme,
+.layout {
+	position:absolute;
+	top:-50%;
+	left:50%;
+}
+
+#site {
+	width:640px;
+	height:480px;
+	margin-bottom:30px;
+	font-weight:bold;
+	text-align:center;
+}

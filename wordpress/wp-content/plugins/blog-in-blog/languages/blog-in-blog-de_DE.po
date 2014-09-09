@@ -1,0 +1,181 @@
+# Translation of the WordPress plugin Blog in Blog 1.0 by Tim Hodson.
+# Copyright (C) 2010 Tim Hodson
+# This file is distributed under the same license as the Blog in Blog package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2010.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Blog in Blog 1.0\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/blog-in-blog\n"
+"POT-Creation-Date: 2010-09-15 17:57+0000\n"
+"PO-Revision-Date: 2010-09-16 16:49+0100\n"
+"Last-Translator: Ch Schmitter <ch.schmitter@gmail.com>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: blog-in-blog.php:372
+msgid "Comments"
+msgstr "Kommentare"
+
+#: blog-in-blog.php:373
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d Kommentar"
+msgstr[1] "%d Kommentare"
+
+#: blog-in-blog.php:378
+msgid "Respond"
+msgstr "Antworten"
+
+#: blog-in-blog.php:379
+msgid "Leave a response "
+msgstr "Einen Kommentar hinterlassen"
+
+#: blog-in-blog.php:384
+msgid "Comments are closed"
+msgstr "Kommentare sind geschlossen"
+
+#: blog-in-blog.php:458
+msgid "There is no excerpt because this is a protected post."
+msgstr "Es gibt kein Auszug, weil dieser Arktikel geschützt ist."
+
+#: options.php:28
+msgid "Page"
+msgstr "Seite"
+
+#: options.php:34
+msgid "more"
+msgstr "mehr"
+
+#: options.php:86
+msgid "Category Settings"
+msgstr "Kategorie Einstellungen"
+
+#: options.php:89
+msgid "Category id to hide from homepage"
+msgstr "Kategorie-ID zum Ausblenden von der Startseite"
+
+#: options.php:92
+msgid "Hide categories from feed?"
+msgstr "Diese Kategorie ausblenden vom Feed?"
+
+#: options.php:95
+msgid "Format Settings"
+msgstr "Format Einstellungen"
+
+#: options.php:98
+msgid "Show dots (elipsis) after n pages"
+msgstr "Zeige Punkte nach n Seiten"
+
+#: options.php:101
+msgid "Text to show as \"previous page\" link"
+msgstr "Text für den \"vorherige Seite\" Link"
+
+#: options.php:104
+msgid "Text to show as \"next page\" link"
+msgstr "Text für den \"nächste Seite\" Link"
+
+#: options.php:107
+msgid "Text to show preceeding page 1. e.g. Post (Post 1, 2, 3) or Page (Page 1, 2, 3) etc"
+msgstr "Text welcher der Seitenzahl vorausgeht (z.B. Seite 1, oder Artikel 1)"
+
+#: options.php:110
+msgid "The characters to show between page links, e.g. \",\" or \"|\""
+msgstr "Das Zeichen, zwischen den Seitenlinks, z.B. \",\" oder \"|\""
+
+#: options.php:114
+msgid "Style for current page e.g. font-weight:bold;"
+msgstr "Style für die aktuelle Seite, z.B. font-weight:bold;"
+
+#: options.php:117
+msgid "Style for non current page e.g. color:grey;"
+msgstr "Style für die nicht aktuelle Seite, z.B. color:grey;"
+
+#: options.php:120
+msgid "Text for the more link if you use the &lt;!--more--&gt; tag in your posts."
+msgstr "Text für den \"Weiter lesen\" Link, falls der &lt;!--more--&gt; Tag in den Artikeln verwendet wird."
+
+#: options.php:123
+msgid "Size of the author avatar image"
+msgstr "Grösse des Avatar Bildes des Autors"
+
+#: options.php:127
+msgid "You are using the default template file"
+msgstr "Sie verwenden die Standart-Template Datei"
+
+#: options.php:128
+msgid "Any changes you make may be overwritten when a new version of the plugin is installed. You are advised to put your template file in the uploads directory. We'll look here first. e.g. wp-content/uploads/my_post_template.tpl"
+msgstr "Jede Änderung welche Sie vornehmen wird möglicherweise durch eine neue Version des Plugins überschrieben. Verschieben Sie deshalb Ihre Tempate-Datei in das \"Upload\" Verzeichnis (z.B. wp-content/uploads/my_post_template.tpl). Das Plugin sucht zuerst dort. "
+
+#: options.php:134
+msgid "The name of the template used to style the post. We look in wp-content/uploads/ then wp-content/plugins/blog-in-blog/ for this file. "
+msgstr "Name des Templates, welches die Artikel stylt. Das Plugin sucht zuerst in wp-content/uploads/ dann in wp-content/plugins/blog-in-blog/ nach dieser Datei."
+
+#: options.php:144
+msgid "Custom fields that should be formatted as dates in the template tags (uses default date format). Dates should be entered YYYY-MM-DD in order for sorting on a field in date order to work"
+msgstr "Benutzerdefinierte Felder, welche für die Sortierung nach Datum mit den Template Tags verwendet werden sollen. Sie müssen im Standart DatumFormat (JJJJ-MM-TT) formatiert sein."
+
+#: options.php:151
+msgid "Debug Settings"
+msgstr "Debug Einstellungen"
+
+#: options.php:154
+msgid "Show some ugly debugging info"
+msgstr "Einige unschöne Debugging-Infos anzeigen"
+
+#: options.php:166
+msgid "Define which categories should be hidden from the home page and optionally exclude them from the feeds"
+msgstr "Definieren Sie, welche Kategorien von der Startseite (Home) ausgebeldent und optional von Feeds ausgeschlossen werden sollen."
+
+#: options.php:201
+msgid "Show all categories"
+msgstr "Alle Kategorien anzeigen"
+
+#: options.php:221
+msgid "These settings will affect how parts of the Blog-in-Blog rendered output will show across every use of the Blog-in-Blog shortcode."
+msgstr "Diese Einstellungen beeinflussen, wie der von Blog-in-Blog ausgegebene Inhalt dargestellt wird, überall wo der Blog-in-Blog Shortcode verwendet wird."
+
+#: options.php:277
+msgid "Define which Custom Fields should be reformatted."
+msgstr "Definieren Sie, welche Benutzerdefinierten Felder neu formatiert werden sollen."
+
+#: options.php:313
+msgid "Select none"
+msgstr "Nichts auswählen"
+
+#: options.php:322
+msgid "Some extra settings. These may cause or resolve problems with your wordpress installation"
+msgstr "Einige Zusatzeinstellungen. Diese können Probleme mit Ihrer Wordpress Installation verursachen oder lösen."
+
+#: options.php:357
+msgid "See full notes at"
+msgstr "Weitere Infos unter"
+
+#: options.php:372
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+#. Plugin Name of the plugin/theme
+msgid "Blog in Blog"
+msgstr "Blog in Blog"
+
+#. Plugin URI of the plugin/theme
+msgid "http://informationtakesover.co.uk/blog-in-blog-wordpress-plugin/"
+msgstr "http://informationtakesover.co.uk/blog-in-blog-wordpress-plugin/"
+
+#. Description of the plugin/theme
+msgid "Create a blog within a blog using a category. This plugin basically shows posts in a category on a page using shortcodes."
+msgstr "Erstellen Sie mit einer Kategorie einen Blog innerhalb des Blogs. Dieses Plugin zeigt die Artikel einer Kategorie auf einer Seite mittels Shortcodes."
+
+#. Author of the plugin/theme
+msgid "Tim Hodson"
+msgstr "Tim Hodson"
+
+#. Author URI of the plugin/theme
+msgid "http://timhodson.com"
+msgstr "http://timhodson.com"
+

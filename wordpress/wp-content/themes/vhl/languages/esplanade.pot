@@ -1,0 +1,613 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Esplanade\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-03-19 20:12+0200\n"
+"PO-Revision-Date: 2012-03-19 20:12+0200\n"
+"Last-Translator: Daniel <contact@onedesigns.com>\n"
+"Language-Team: One Designs <contact@onedesigns.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: attachment.php:19
+#: content-aside.php:17
+#: content-audio.php:18
+#: content-chat.php:18
+#: content-gallery.php:10
+#: content-image.php:17
+#: content-quote.php:17
+#: content-status.php:21
+#: content-video.php:13
+#: content.php:18
+#: image.php:23
+msgid "Edit"
+msgstr ""
+
+#: attachment.php:25
+msgid "Download"
+msgstr ""
+
+#: attachment.php:37
+#: image.php:42
+msgid "Pages:"
+msgstr ""
+
+#: comments.php:4
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:7
+msgid "No Responses to"
+msgstr ""
+
+#: comments.php:7
+msgid "One Response to"
+msgstr ""
+
+#: comments.php:7
+msgid "% Responses to"
+msgstr ""
+
+#: comments.php:29
+msgid "Comments are closed."
+msgstr ""
+
+#: content-aside.php:16
+#: content-audio.php:17
+#: content-chat.php:17
+#: content-gallery.php:9
+#: content-image.php:16
+#: content-quote.php:16
+#: content-status.php:20
+#: content-video.php:12
+#: content.php:17
+msgid "Filed under"
+msgstr ""
+
+#: footer.php:7
+msgid "Esplanade Theme"
+msgstr ""
+
+#: footer.php:8
+msgid "One Designs"
+msgstr ""
+
+#: footer.php:9
+msgid "WordPress"
+msgstr ""
+
+#: footer.php:11
+#, php-format
+msgid "Powered by %1$s by %2$s and %3$s"
+msgstr ""
+
+#: footer.php:13
+#, php-format
+msgid "Powered by %1$s by %2$s"
+msgstr ""
+
+#: footer.php:15
+#: footer.php:17
+#, php-format
+msgid "Powered by %1$s and %2$s"
+msgstr ""
+
+#: footer.php:19
+#: footer.php:21
+#: footer.php:23
+#, php-format
+msgid "Powered by %1$s"
+msgstr ""
+
+#: functions.php:950
+#: functions.php:956
+#: functions.php:1070
+msgid "Page"
+msgstr ""
+
+#: functions.php:976
+msgid "You are here"
+msgstr ""
+
+#: functions.php:977
+msgid "Home"
+msgstr ""
+
+#: functions.php:1006
+#: functions.php:1009
+msgid "Entries tagged with"
+msgstr ""
+
+#: functions.php:1015
+#: functions.php:1018
+msgid "Entries written by"
+msgstr ""
+
+#: functions.php:1021
+#: functions.php:1024
+#: functions.php:1027
+msgid "Archive for"
+msgstr ""
+
+#: functions.php:1062
+msgid "Page not found"
+msgstr ""
+
+#: functions.php:1065
+#: functions.php:1096
+msgid "Search results for"
+msgstr ""
+
+#: functions.php:1093
+msgid "Currently browsing"
+msgstr ""
+
+#: functions.php:1519
+#, php-format
+msgid "This is a gallery about %1$s and contains %2$d images."
+msgstr ""
+
+#: functions.php:1782
+msgid "Did you like this article? Share it with your friends!"
+msgstr ""
+
+#: functions.php:1832
+msgid "Written by"
+msgstr ""
+
+#: functions.php:1836
+msgid "Visit my Website"
+msgstr ""
+
+#: functions.php:1839
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: functions.php:1876
+#: functions.php:1894
+msgid "Previous Page"
+msgstr ""
+
+#: functions.php:1877
+#: functions.php:1895
+msgid "Next Page"
+msgstr ""
+
+#: functions.php:1880
+msgid "Newer Posts"
+msgstr ""
+
+#: functions.php:1881
+msgid "Older Posts"
+msgstr ""
+
+#: functions.php:1884
+msgid "Later Posts"
+msgstr ""
+
+#: functions.php:1885
+msgid "Earlier Posts"
+msgstr ""
+
+#: functions.php:1911
+msgid "Read all Articles"
+msgstr ""
+
+#: functions.php:1930
+msgid "Content not found"
+msgstr ""
+
+#: functions.php:1932
+msgid "The content you are looking for could not be found."
+msgstr ""
+
+#: functions.php:1934
+msgid "Use the information below or try to seach to find what you're looking for:"
+msgstr ""
+
+#: functions.php:1964
+msgid "Extra profile information"
+msgstr ""
+
+#: functions.php:1970
+msgid "Twitter Username."
+msgstr ""
+
+#: image.php:20
+msgid "Full size is"
+msgstr ""
+
+#: image.php:21
+msgid "Link to full-size image"
+msgstr ""
+
+#: image.php:22
+msgid "pixels"
+msgstr ""
+
+#: single.php:21
+msgid "and tagged with: "
+msgstr ""
+
+#: includes/theme-options.php:4
+msgid "Esplanade Theme Options"
+msgstr ""
+
+#: includes/theme-options.php:4
+msgid "Theme Options"
+msgstr ""
+
+#: includes/theme-options.php:34
+msgid "Theme settings updated successfully."
+msgstr ""
+
+#: includes/theme-options.php:41
+msgid "Save Settings"
+msgstr ""
+
+#: includes/theme-options.php:42
+msgid "Reset Defaults"
+msgstr ""
+
+#: includes/theme-options.php:51
+msgid "General"
+msgstr ""
+
+#: includes/theme-options.php:52
+msgid "Layout"
+msgstr ""
+
+#: includes/theme-options.php:53
+msgid "Design"
+msgstr ""
+
+#: includes/theme-options.php:54
+msgid "Typography"
+msgstr ""
+
+#: includes/theme-options.php:55
+msgid "SEO"
+msgstr ""
+
+#: includes/theme-options.php:94
+msgid "Global Options"
+msgstr ""
+
+#: includes/theme-options.php:95
+#: includes/theme-options.php:980
+msgid "Home Page"
+msgstr ""
+
+#: includes/theme-options.php:96
+#: includes/theme-options.php:981
+msgid "Archive Pages"
+msgstr ""
+
+#: includes/theme-options.php:97
+msgid "Single Posts"
+msgstr ""
+
+#: includes/theme-options.php:98
+msgid "Footer"
+msgstr ""
+
+#: includes/theme-options.php:102
+msgid "Fancy Drop-down Menus"
+msgstr ""
+
+#: includes/theme-options.php:103
+msgid "Breadcrumbs"
+msgstr ""
+
+#: includes/theme-options.php:104
+msgid "Posts Navigation Labels"
+msgstr ""
+
+#: includes/theme-options.php:110
+msgid "Enable slide and fade effects for drop-down menus"
+msgstr ""
+
+#: includes/theme-options.php:118
+msgid "Show breadcrumbs trail"
+msgstr ""
+
+#: includes/theme-options.php:128
+msgid "Numbered Pagination"
+msgstr ""
+
+#: includes/theme-options.php:134
+msgid "Home Page Layout"
+msgstr ""
+
+#: includes/theme-options.php:135
+msgid "Full posts to display"
+msgstr ""
+
+#: includes/theme-options.php:136
+msgid "Sticky Posts Slider"
+msgstr ""
+
+#: includes/theme-options.php:142
+msgid "Grid Layout"
+msgstr ""
+
+#: includes/theme-options.php:146
+msgid "Blog Layout"
+msgstr ""
+
+#: includes/theme-options.php:154
+msgid "Full posts to display before grid (0 = display only teasers)"
+msgstr ""
+
+#: includes/theme-options.php:162
+msgid "Display a slider of sticky posts on the front page"
+msgstr ""
+
+#: includes/theme-options.php:174
+msgid "Show current location in archive pages"
+msgstr ""
+
+#: includes/theme-options.php:180
+msgid "Inner Post Navigation"
+msgstr ""
+
+#: includes/theme-options.php:181
+msgid "Social Bookmarks"
+msgstr ""
+
+#: includes/theme-options.php:182
+msgid "Author Box"
+msgstr ""
+
+#: includes/theme-options.php:188
+msgid "Show link to next and previous post"
+msgstr ""
+
+#: includes/theme-options.php:196
+msgid "Facebook Like"
+msgstr ""
+
+#: includes/theme-options.php:200
+msgid "Twitter Button"
+msgstr ""
+
+#: includes/theme-options.php:204
+msgid "Google +1"
+msgstr ""
+
+#: includes/theme-options.php:212
+msgid "Display a hcard microformatted box featuring author name, avatar and bio"
+msgstr ""
+
+#: includes/theme-options.php:218
+msgid "Copyright Notice"
+msgstr ""
+
+#: includes/theme-options.php:219
+msgid "Credit Links"
+msgstr ""
+
+#: includes/theme-options.php:225
+msgid "Text to display in the footer copyright section (%year% = current year, %blogname% = website name)"
+msgstr ""
+
+#: includes/theme-options.php:233
+msgid "Show theme credit link"
+msgstr ""
+
+#: includes/theme-options.php:237
+msgid "Show author credit link"
+msgstr ""
+
+#: includes/theme-options.php:241
+msgid "Show WordPress credit link"
+msgstr ""
+
+#: includes/theme-options.php:247
+msgid "Color Scheme"
+msgstr ""
+
+#: includes/theme-options.php:248
+msgid "Custom CSS"
+msgstr ""
+
+#: includes/theme-options.php:252
+msgid "Choose your color scheme"
+msgstr ""
+
+#: includes/theme-options.php:256
+msgid "Enter your custom CSS"
+msgstr ""
+
+#: includes/theme-options.php:306
+msgid "Default Layout Template"
+msgstr ""
+
+#: includes/theme-options.php:307
+msgid "Layout Dimensions"
+msgstr ""
+
+#: includes/theme-options.php:311
+msgid "Choose your preferred Layout"
+msgstr ""
+
+#: includes/theme-options.php:315
+msgid "Select Layout Dimensions"
+msgstr ""
+
+#: includes/theme-options.php:316
+msgid "Header Image Height"
+msgstr ""
+
+#: includes/theme-options.php:437
+msgid "Font Families"
+msgstr ""
+
+#: includes/theme-options.php:438
+msgid "Font Sizes"
+msgstr ""
+
+#: includes/theme-options.php:439
+msgid "Colors"
+msgstr ""
+
+#: includes/theme-options.php:443
+msgid "Default Font Family"
+msgstr ""
+
+#: includes/theme-options.php:444
+msgid "Headings Font Family"
+msgstr ""
+
+#: includes/theme-options.php:445
+msgid "Body Copy Font Family"
+msgstr ""
+
+#: includes/theme-options.php:479
+msgid "Default Font Size"
+msgstr ""
+
+#: includes/theme-options.php:480
+msgid "Default Line Height"
+msgstr ""
+
+#: includes/theme-options.php:481
+msgid "H1 Font Size"
+msgstr ""
+
+#: includes/theme-options.php:482
+msgid "H2 Font Size"
+msgstr ""
+
+#: includes/theme-options.php:483
+msgid "H3 Font Size"
+msgstr ""
+
+#: includes/theme-options.php:484
+msgid "H4 Font Size"
+msgstr ""
+
+#: includes/theme-options.php:485
+msgid "Headings Line Height"
+msgstr ""
+
+#: includes/theme-options.php:486
+msgid "Body Copy Font Size"
+msgstr ""
+
+#: includes/theme-options.php:487
+msgid "Body Copy Line Height"
+msgstr ""
+
+#: includes/theme-options.php:488
+msgid "Body Copy Font Size on Mobile Devices"
+msgstr ""
+
+#: includes/theme-options.php:489
+msgid "Body Copy Line Height on Mobile Devices"
+msgstr ""
+
+#: includes/theme-options.php:614
+msgid "Default Font Color"
+msgstr ""
+
+#: includes/theme-options.php:615
+msgid "Headings Font Color"
+msgstr ""
+
+#: includes/theme-options.php:616
+msgid "Body Copy Font Color"
+msgstr ""
+
+#: includes/theme-options.php:617
+msgid "Links Color"
+msgstr ""
+
+#: includes/theme-options.php:618
+msgid "Links Hover Color"
+msgstr ""
+
+#: includes/theme-options.php:619
+msgid "Navigation Links Color"
+msgstr ""
+
+#: includes/theme-options.php:620
+msgid "Navigation Links Hover Color"
+msgstr ""
+
+#: includes/theme-options.php:621
+msgid "Sidebar Widgets Color"
+msgstr ""
+
+#: includes/theme-options.php:622
+msgid "Sidebar Widgets Title Color"
+msgstr ""
+
+#: includes/theme-options.php:623
+msgid "Widgets Links Color"
+msgstr ""
+
+#: includes/theme-options.php:624
+msgid "Footer Widgets Color"
+msgstr ""
+
+#: includes/theme-options.php:625
+msgid "Footer Widgets Title Color"
+msgstr ""
+
+#: includes/theme-options.php:626
+msgid "Footer Color"
+msgstr ""
+
+#: includes/theme-options.php:627
+msgid "Footer Links Color"
+msgstr ""
+
+#: includes/theme-options.php:982
+msgid "Single Posts &amp; Pages"
+msgstr ""
+
+#: includes/theme-options.php:983
+msgid "Other"
+msgstr ""
+
+#: includes/theme-options.php:987
+#: includes/theme-options.php:1023
+#: includes/theme-options.php:1070
+msgid "Site Title Tag"
+msgstr ""
+
+#: includes/theme-options.php:988
+#: includes/theme-options.php:1024
+#: includes/theme-options.php:1071
+msgid "Site Description Tag"
+msgstr ""
+
+#: includes/theme-options.php:989
+#: includes/theme-options.php:1026
+#: includes/theme-options.php:1072
+msgid "Post Title Tag"
+msgstr ""
+
+#: includes/theme-options.php:1025
+msgid "Site Location Title Tag"
+msgstr ""
+
+#: includes/theme-options.php:1073
+msgid "Comments Title Tag"
+msgstr ""
+
+#: includes/theme-options.php:1074
+msgid "Reply Form Title Tag"
+msgstr ""
+
+#: includes/theme-options.php:1128
+msgid "Widget Title Tag"
+msgstr ""
+

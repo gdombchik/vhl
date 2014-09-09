@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /images/
+Disallow: /includes/
+Disallow: /wp-admin/
+Disallow: /wp-includes/

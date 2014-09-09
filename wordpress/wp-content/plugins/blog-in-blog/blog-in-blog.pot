@@ -1,0 +1,214 @@
+# Copyright (C) 2010 Blog in Blog
+# This file is distributed under the same license as the Blog in Blog package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Blog in Blog 1.0.3\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/blog-in-blog\n"
+"POT-Creation-Date: 2011-02-19 15:42:22+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: blog-in-blog.php:395
+msgid "Comments"
+msgstr ""
+
+#: blog-in-blog.php:396
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: blog-in-blog.php:401
+msgid "Respond"
+msgstr ""
+
+#: blog-in-blog.php:402
+msgid "Leave a response "
+msgstr ""
+
+#: blog-in-blog.php:407
+msgid "Comments are closed"
+msgstr ""
+
+#: blog-in-blog.php:481
+msgid "There is no excerpt because this is a protected post."
+msgstr ""
+
+#: options.php:30
+msgid "Page"
+msgstr ""
+
+#: options.php:36
+msgid "more"
+msgstr ""
+
+#: options.php:125
+msgid "Category(ies) to hide from homepage."
+msgstr ""
+
+#: options.php:128
+msgid "Hide categories from feed?"
+msgstr ""
+
+#: options.php:139
+msgid "Text to show as \"previous page\" link"
+msgstr ""
+
+#: options.php:142
+msgid "Text to show as \"next page\" link"
+msgstr ""
+
+#: options.php:145
+msgid ""
+"Text to show preceeding page 1. e.g. Post (Post 1, 2, 3) or Page (Page 1, 2, "
+"3) etc"
+msgstr ""
+
+#: options.php:148
+msgid "The characters to show between page links, e.g. \",\" or \"|\""
+msgstr ""
+
+#: options.php:151
+msgid "Show dots (elipsis ... ) after n pages"
+msgstr ""
+
+#: options.php:154
+msgid "Style for current page e.g. font-weight:bold;"
+msgstr ""
+
+#: options.php:157
+msgid "Style for non current page e.g. color:grey;"
+msgstr ""
+
+#: options.php:179
+msgid "The html for the post template."
+msgstr ""
+
+#: options.php:182
+msgid ""
+"Text for the more link if you use the &lt;!--more--&gt; tag in your posts."
+msgstr ""
+
+#: options.php:185
+msgid "Size of the author avatar image (pixels)"
+msgstr ""
+
+#: options.php:189
+msgid "Custom Fields"
+msgstr ""
+
+#: options.php:192
+msgid ""
+"Custom fields that should be formatted as dates in the template tags (uses "
+"default wordpress date format). "
+msgstr ""
+
+#: options.php:202
+msgid "Show some ugly debugging info"
+msgstr ""
+
+#: options.php:216
+msgid ""
+"Define which categories should be hidden from the home page and optionally "
+"exclude them from the feeds. Choose more than one category if required. Only "
+"categories with posts will appear for selection."
+msgstr ""
+
+#: options.php:251
+msgid "Show all categories"
+msgstr ""
+
+#: options.php:275
+msgid ""
+"The pagination menu is shown by default when there are more posts than will "
+"fit on a page (as controlled by the 'num' shortcode parameter). These "
+"settings will allow you to change the pagination menu styling. See the help "
+"for turning pagination on and off"
+msgstr ""
+
+#: options.php:321
+msgid ""
+"The template is used to format each post displayed by a Blog-in-Blog "
+"shortcode. Edit the HTML below to update your current default template (this "
+"was copied from your existing default template file on upgade to this "
+"version). If you want to have more than one template in use for different "
+"instances of the shortcode, you can specify a template file using a "
+"shortcode paramater. We always look in `wp-content/uploads/` for your "
+"template file first (your template will be safe under uploads/) before "
+"looking in `wp-content/plugins/blog-in-blog` (your template will probably be "
+"lost when the plugin is upgraded). For more template tags see the help tab."
+msgstr ""
+
+#: options.php:350
+msgid ""
+"It is possible to display your custom fields in your post using template "
+"tags. The template tag will be the name of your custom field surrounded by a "
+"percent symbol (%). For example %my_field% . When you use date values in "
+"your custom fields, they should be entered using the format YYYY-MM-DD if "
+"you require sorting on a custom field in date order to work as expected. You "
+"can define which custom fields should be reformatted as a 'pretty' date in "
+"your locale specific format. "
+msgstr ""
+
+#: options.php:386
+msgid "Select none"
+msgstr ""
+
+#: options.php:400
+msgid "Some extra settings."
+msgstr ""
+
+#: options.php:537
+msgid "Category"
+msgstr ""
+
+#: options.php:538
+msgid "Pagination"
+msgstr ""
+
+#: options.php:539
+msgid "Template"
+msgstr ""
+
+#: options.php:540
+msgid "Debug"
+msgstr ""
+
+#: options.php:541
+msgid "Help"
+msgstr ""
+
+#: options.php:552 options.php:560 options.php:568 options.php:577
+#: options.php:589
+msgid "Save All Changes"
+msgstr ""
+
+#: options.php:594
+msgid "See full notes at"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Blog in Blog"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://informationtakesover.co.uk/blog-in-blog-wordpress-plugin/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"Create a blog within a blog using a category. This plugin basically shows "
+"posts in a category on a page using shortcodes."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Tim Hodson"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://timhodson.com"
+msgstr ""

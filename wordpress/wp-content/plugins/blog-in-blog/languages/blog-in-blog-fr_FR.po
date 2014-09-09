@@ -1,0 +1,150 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blog-in-blog FR\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/blog-in-blog\n"
+"POT-Creation-Date: 2009-07-29 17:32+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Tim Hodson <tim@timhodson.com>\n"
+"Language-Team: Stef walterstephanie68@googlemail.com\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: French\n"
+"X-Poedit-Country: FRANCE\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: options.php:123
+msgid "Size of the author avatar image"
+msgstr "Taille de l'image d'avatar"
+
+#: options.php:127
+msgid "You are using the default template file"
+msgstr "Vous utilisez le template par défaut"
+
+#: options.php:128
+msgid "Any changes you make may be overwritten when a new version of the plugin is installed. You are advised to put your template file in the uploads directory. We'll look here first. e.g. wp-content/uploads/my_post_template.tpl"
+msgstr "Toutes les modifications faites seront écrasées si vous installez une nouvelle version du plugin. Nous vous conseillons de mettre votre fichier de template dans le dossier d'uploads car c'est là que le plugin va chercher en premier une template, par exemple wp-content/uploads/my_post_template.tpl"
+
+#: options.php:134
+msgid "The name of the template used to style the post. We look in wp-content/uploads/ then wp-content/plugins/blog-in-blog/ for this file. "
+msgstr "Le nom de la template utilisée pour styliser l'article. Le plugin cherchera ce fichier dans wp-content/uploads/, puis dans wp-content/plugins/blog-in-blog/."
+
+#: options.php:144
+msgid "Custom fields that should be formatted as dates in the template tags (uses default date format). Dates should be entered YYYY-MM-DD in order for sorting on a field in date order to work"
+msgstr "Champs personnalisés qui doivent être formatés en tant que dates dans les tags de la template (utilise un format de date par défaut). Les dates doivent être entrées dans l'ordre suivant : AAAA-MM-JJ pour que le champ \"trier par date\" puisse fonctionner"
+
+#: options.php:151
+msgid "Debug Settings"
+msgstr "Paramètres de débug"
+
+#: options.php:154
+msgid "Show some ugly debugging info"
+msgstr "Quelques informations de débug pas très jolies"
+
+#: blog-in-blog.php:60
+msgid "Page"
+msgstr "Page"
+
+#: blog-in-blog.php:98
+msgid "more"
+msgstr "plus"
+
+#: blog-in-blog.php:207
+msgid "Comments"
+msgstr "Commentaires"
+
+#: blog-in-blog.php:208
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d Commentaire"
+msgstr[1] "%d reacties"
+
+#: blog-in-blog.php:213
+msgid "Respond"
+msgstr "Réponse"
+
+#: blog-in-blog.php:214
+msgid "Leave a response "
+msgstr "Laisser une réponse"
+
+#: blog-in-blog.php:219
+msgid "Comments are closed"
+msgstr "Les commentaires sont fermés"
+
+#: blog-in-blog.php:372
+msgid "Posted on"
+msgstr "Publié le"
+
+#: blog-in-blog.php:497
+msgid "See full notes at"
+msgstr "Voir tous les détails sur"
+
+#: blog-in-blog.php:505
+msgid "Category id to hide from homepage"
+msgstr "Id des catégories à cacher de la page d'accueil"
+
+#: blog-in-blog.php:535
+msgid "Show all categories"
+msgstr "Montrer toutes les catégories"
+
+#: blog-in-blog.php:540
+msgid "Show dots (elipsis) after n pages"
+msgstr "Montrer les ... d'ellipse après n page"
+
+#: blog-in-blog.php:543
+msgid "Text to show as \"previous page\" link"
+msgstr "Texte à afficher en tant que lien de \"page précédente\""
+
+#: blog-in-blog.php:546
+msgid "Text to show as \"next page\" link"
+msgstr "Texte à afficher en tant que lien de \"page suivant\""
+
+#: blog-in-blog.php:549
+msgid "Text to show preceeding page 1. e.g. Post (Post 1, 2, 3) or Page (Page 1, 2, 3) etc"
+msgstr "Texte à afficher avant la page 1. Exemple Article (Article 1, 2, 3) ou Page (Page 1, 2, 3) etc"
+
+#: blog-in-blog.php:552
+msgid "The characters to show between page links, e.g. \",\" or \"|\""
+msgstr "Le caractère à afficher entre les liens de pages, par exemple \",\" ou \"|\""
+
+#: blog-in-blog.php:555
+msgid "Style for current page e.g. font-weight:bold;"
+msgstr "Style de la page active, exemple : font-weigh:bold;"
+
+#: blog-in-blog.php:557
+msgid "Style for non current page e.g. color:grey;"
+msgstr "Style des autres pages non actives, exemple: color:grey;"
+
+#: blog-in-blog.php:559
+msgid "The name of the template for a category post. If not set will default to /wp_plugins/blog-in-blog/bib_post_template.tpl. The default serves as an example."
+msgstr "Le nom de la termplate pour un article d'une catégorie. Si ce non défini, le chemin par défaut sera to /wp_plugins/blog-in-blog/bib_post_template.tpl. Cette template par défaut sert d'exemple."
+
+#: blog-in-blog.php:562
+msgid "Text for the more link if you use the &lt;!--more--&gt; tag in your posts."
+msgstr "Texte pour le lien \"lire la suite\" si le tag <!--more--> est utilisé dans les articles"
+
+#: blog-in-blog.php:570
+msgid "Save Changes"
+msgstr "Enregistrer les modifications"
+
+#. Plugin Name of an extension
+msgid "Blog in Blog"
+msgstr "Blog in Blog"
+
+#. Plugin URI of an extension
+msgid "http://informationtakesover.co.uk/blog-in-blog-wordpress-plugin/"
+msgstr "http://informationtakesover.co.uk/blog-in-blog-wordpress-plugin/"
+
+#. Description of an extension
+msgid "Create a blog within a blog using a category. This plugin basically shows posts in a category on a page using shortcodes."
+msgstr "Crée un blog à l'intérieur de votre blog en utilisant les catégories. Ce plugin affiche les articles présent dans une catégoerie sur une page, en utilisant les shortcodes"
+
+#. Author of an extension
+msgid "Tim Hodson"
+msgstr "Tim Hodson"
+
+#. Author URI of an extension
+msgid "http://informationtakesover.co.uk"
+msgstr "http://informationtakesover.co.uk"
+

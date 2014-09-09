@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Blog-in-blog NL\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/blog-in-blog\n"
+"POT-Creation-Date: 2009-07-29 17:32+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Geir A Granviken <ggranvik@online.no>\n"
+"Language-Team: Mark <mark@ooxo.nl>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: Norwegian\n"
+"X-Poedit-Country: Norway\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: blog-in-blog.php:60
+msgid "Page"
+msgstr "Side"
+
+#: blog-in-blog.php:98
+msgid "more"
+msgstr "mer"
+
+#: blog-in-blog.php:207
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: blog-in-blog.php:208
+#, php-format
+msgid "%d Comment"
+msgid_plural "%d Comments"
+msgstr[0] "%d Kommenter"
+msgstr[1] "%d Kommentarer"
+
+#: blog-in-blog.php:213
+msgid "Respond"
+msgstr "Svar"
+
+#: blog-in-blog.php:214
+msgid "Leave a response "
+msgstr "Kommenter"
+
+#: blog-in-blog.php:219
+msgid "Comments are closed"
+msgstr "Kommentarer er stengt"
+
+#: blog-in-blog.php:497
+msgid "See full notes at"
+msgstr "Se full beskrivelse på"
+
+#: blog-in-blog.php:505
+msgid "Category id to hide from homepage"
+msgstr "Kategori-ID som skal skjules på hjemmeside"
+
+#: blog-in-blog.php:535
+msgid "Show all categories"
+msgstr "Vis alle kommentarer"
+
+#: blog-in-blog.php:540
+msgid "Show dots (elipsis) after n pages"
+msgstr "Vis prikker etter n sider"
+
+#: blog-in-blog.php:543
+msgid "Text to show as \"previous page\" link"
+msgstr "Tekst for \"forrige side\" link"
+
+#: blog-in-blog.php:546
+msgid "Text to show as \"next page\" link"
+msgstr "Tekst for \"neste side\" link"
+
+#: blog-in-blog.php:549
+msgid "Text to show preceeding page 1. e.g. Post (Post 1, 2, 3) or Page (Page 1, 2, 3) etc"
+msgstr "Tekst for å vise foregående side 1. F.eks. Post (1,2 3) eller Side (Side 1, 2, 3) etc"
+
+#: blog-in-blog.php:552
+msgid "The characters to show between page links, e.g. \",\" or \"|\""
+msgstr "Tegn som vises mellom side-linker, f.eks. \",\" eller \"|\""
+
+#: blog-in-blog.php:555
+msgid "Style for current page e.g. font-weight:bold;"
+msgstr "Stil for gjeldende side f.eks. font-weight:bold;"
+
+#: blog-in-blog.php:557
+msgid "Style for non current page e.g. color:grey;"
+msgstr "Stil for ikke-gjeldende side f.eks. color:grey;"
+
+#: blog-in-blog.php:559
+msgid "The name of the template for a category post. If not set will default to /wp_plugins/blog-in-blog/bib_post_template.tpl. The default serves as an example."
+msgstr "Navn på mal for en kategori-post. Hvis ikke oppgitt, brukes /wp_plugins/blog-in-blog/bib_post_template.tpl. Default-malen tjener som eksempel."
+
+#: blog-in-blog.php:562
+msgid "Text for the more link if you use the &lt;!--more--&gt; tag in your posts."
+msgstr "Tekst for mer-link hvis du bruker &lt;!--more--&gt; tag'en i posten."
+
+#: blog-in-blog.php:570
+msgid "Save Changes"
+msgstr "Lagre endringer"
+
+#. Plugin Name of an extension
+msgid "Blog in Blog"
+msgstr "Blog in Blog"
+
+#. Plugin URI of an extension
+msgid "http://informationtakesover.co.uk/blog-in-blog-wordpress-plugin/"
+msgstr "http://informationtakesover.co.uk/blog-in-blog-wordpress-plugin/"
+
+#. Description of an extension
+msgid "Create a blog within a blog using a category. This plugin basically shows posts in a category on a page using shortcodes."
+msgstr "Lag en blogg innefor en blogg (under-blogg) ved å bruke kategorier. Dette innstikker viser poster innenfor en kategori på en side ved å skrive inn en kode på siden."
+
+#. Author of an extension
+msgid "Tim Hodson"
+msgstr "Tim Hodson"
+
+#. Author URI of an extension
+msgid "http://informationtakesover.co.uk"
+msgstr "http://informationtakesover.co.uk"
+
