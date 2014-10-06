@@ -246,6 +246,22 @@ if ( !defined('ABSPATH')) exit;
 				 * 
 				 */             
             	?>
+
+ 			<?php
+			if ($post->ID == 11230) //email reminder
+        	{
+
+        		//include("wp-content/plugins/email_reminder_vhl/hello.php");
+
+        		echo 'in page.php';
+
+				require_once("wp-content/plugins/email_reminder_vhl/pogidude-reminder.php");
+        		require_once("wp-content/plugins/email_reminder_vhl/views/ereminder-page.php");
+        		//add_query_arg( 'pder-action', 'add', 'wp-content/plugins/email_reminder_vhl/views/ereminder-page.php' );
+
+ 			}
+ 			?>
+
             <div class="post-edit"><?php edit_post_link(__('Edit', 'vhl')); ?></div> 
             </div><!-- end of #post-<?php the_ID(); ?> -->
             
