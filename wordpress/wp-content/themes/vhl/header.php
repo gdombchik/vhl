@@ -298,7 +298,15 @@ function GetMetaTagKeywords($PostID)
     }
   }
 ?>  
-  
+
+<!--this is temporary hardcoded here for the ereminder.  Probably should be based on the loaded page.  Same as page.php.-->
+<!--<link href="<?=$url?>/wp-content/plugins/email_reminder_vhl/assets/css/style.css" rel="stylesheet" type="text/css">
+<script src="<?=$url?>/wp-content/plugins/email_reminder_vhl/assets/js/jquery-ui-1.8.16.custom.min.js"></script>
+<script src="<?=$url?>/wp-content/plugins/email_reminder_vhl/assets/js/jquery.ui.timepicker.addon.js"></script>
+<script src="<?=$url?>/wp-content/plugins/email_reminder_vhl/assets/js/script.js"></script>-->
+<!------------------------------------------------------------------------------------------------------------------------>
+
+
 
 </head>
 

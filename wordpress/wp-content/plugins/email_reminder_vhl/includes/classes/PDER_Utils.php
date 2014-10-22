@@ -11,7 +11,7 @@ class PDER_Utils_VHL{
 	public static function get_view( $filename, $data = null, $parent = PDER_VIEWS_VHL ){
 		if( empty( $filename ) ) return '';
 
-		echo 'in get_view';
+		//echo 'in get_view';
 		
 		$file = '';
 		

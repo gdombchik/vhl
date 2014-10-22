@@ -5,9 +5,22 @@ $messages = $data['messages'];
 $action = $data['action'];
 
 
-echo print_r($data['messages']);
+//echo print_r($data['messages']);
+
+//echo print_r(pder);
+
 
 //echo '<br>beginner of ereminder-page.php'
+
+//echo $fields['reminder'];
+
+$pder = $_POST['pder'];
+		
+$valueList = $pder['reminder'];
+
+//echo $pder['reminder'];
+
+//echo print_r($_POST);
 
 ?>
 <div class="wrap ereminder">
@@ -32,9 +45,26 @@ echo print_r($data['messages']);
 	
 	<form method="POST" action="">
 		<p class="field">
-			<label for="pd-reminder-content">Enter your reminder</label>
-			<input type="text" size="40" name="pder[reminder]" id="pd-reminder-content" placeholder="Send Dad a birthday card" value="<?php echo $fields['reminder']; ?>" title="Type your reminder here." />
+			<label for="pd-reminder-content">Select the scan you want to create a reminder for</label>
+			<!--<input type="text" size="40" name="pder[reminder]" id="pd-reminder-content" placeholder="Send Dad a birthday card" value="<?php echo $fields['reminder']; ?>" title="Type your reminder here." />-->
+			<select name="pder[reminder]" id="pd-reminder-content" style="width: 500px;">
+				<option value="Newborn Neurology Screening (includes the eyes)">Newborn Neurology Screening (includes the eyes)</option>
+				<option value="Newborn Hearing Screening">Newborn Hearing Screening</option>
+				<option value="Eye/Retinal Examination">Eye/Retinal Examination</option>
+				<option value="Pediatric  Screening (neurology, hearing, blood pressure)">Pediatric  Screening (neurology, hearing, blood pressure)</option>
+				<option value="Test for fractionated metanephrines (blood test or 24 hour urine test)">Test for fractionated metanephrines (blood test or 24 hour urine test)</option>
+				<option value="Abdominal Ultrasound">Abdominal Ultrasound</option>
+				<option value="Abdominal MRI or MIBG">Abdominal MRI or MIBG</option>
+				<option value="Audiology Assessment">Audiology Assessment</option>
+				<option value="Internal Auditory Canal MRI">Internal Auditory Canal MRI</option>
+				<option value="Brain, Cervical, Thoracic, and Lumbar MRI">Brain, Cervical, Thoracic, and Lumbar MRI</option>
+			</select>
 		</p>
+
+		<script type="text/javascript">
+  			document.getElementById('pd-reminder-content').value = "<?php echo $valueList;?>";
+		</script>
+
 		<p class="field">
 			<label for="pd-reminder-email" title="Leave this field blank to send email to yourself">Email address to send reminder to</label>
 			<input type="email" size="40" name="pder[email]" id="pd-reminder-email" placeholder="youemailaddress@email.com" title="Where to email the reminder to. Leave this field blank to send email to yourself" value="<?php echo $fields['email']; ?>" />

@@ -10,7 +10,7 @@ Class PDER_Base_VHL {
 	
 	public function init(){		
 
-		echo 'in initfff';
+		//echo 'in initfff';
 
 		//register Ereminder Custom Post Type
 		//add_action('init', array( $this,'register_post_type') );
@@ -26,7 +26,7 @@ Class PDER_Base_VHL {
 		//9/29 - Not sure yet to do with below ?????????????
 
 		//register our event to cron
-		add_action('PDER_cron_send_reminders', array( 'PDER', 'send_ereminders') );
+		add_action('PDER_cron_send_reminders', array( 'PDER_VHL', 'send_ereminders') );
 	}
 	
 	function load_files(){
@@ -145,17 +145,9 @@ Class PDER_Base_VHL {
 		wp_register_script('pder-admin-script', PDER_JS_VHL . '/script.js', array( 'pder-datepicker', 'pder-timepicker' ) );
 		
 		/** Styles **/
-		wp_register_style('pder-admin-style', PDER_CSS_VHL . '/style.css' );
-		wp_register_style('pder-datepicker-css', PDER_CSS_VHL . '/jquery.ui.datepicker.css' );
-		wp_register_style('pder-datepicker-css-custom', PDER_CSS_VHL . '/jquery-ui-1.8.16.custom.css' );
-
-			/** Scripts **/
-		//wp_enqueue_script('pder-admin-script' );
-		
-		/** Styles **/
-		//wp_enqueue_style('pder-admin-style' );
-		//wp_enqueue_style('pder-datepicker-css' );
-		//wp_enqueue_style('pder-datepicker-css-custom' );
+		wp_register_style('pder-admin-style_vhl', PDER_CSS_VHL . '/style.css' );
+		wp_register_style('pder-datepicker-css_vhl', PDER_CSS_VHL . '/jquery.ui.datepicker.css' );
+		wp_register_style('pder-datepicker-css-custom_vhl', PDER_CSS_VHL . '/jquery-ui-1.8.16.custom.css' );
 	}
 	
 } //Pogidude_Email_Reminder

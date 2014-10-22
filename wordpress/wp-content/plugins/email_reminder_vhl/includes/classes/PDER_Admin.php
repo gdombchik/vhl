@@ -64,13 +64,13 @@ class PDER_Admin_VHL{
 	
 	function process_submissions(){
 
-		echo '<br>in PDER_Admin_VHL process_submissions';
+		/*echo '<br>in PDER_Admin_VHL process_submissions';
 
 		echo '<br>pder-submit: ';
 		echo $_REQUEST['pder-submit'];
 
 		echo '<br>pder-action: ';
-		echo $_REQUEST['pder-action'];
+		echo $_REQUEST['pder-action'];*/
 
 		if( !isset( $_REQUEST['pder-submit'] ) || $_REQUEST['pder-submit'] != 'true' ) return;
 		
@@ -103,7 +103,7 @@ class PDER_Admin_VHL{
 	
 	function schedule_reminder( $data ){
 
-		echo '<br>in schedule_reminder';
+		//echo '<br>in schedule_reminder';
 		//echo print_r($data);
 
 		$clean = array();
@@ -190,6 +190,11 @@ class PDER_Admin_VHL{
 				} else {
 					$this->_messages['success'][] = 'Reminder <strong>#' . $insert_post_id . '</strong> scheduled for ' . date( 'F j, Y h:i A', strtotime( $date_all ) ) . ' added.';
 				}
+
+				//echo 'hello';
+
+				//$pd = new PDER_VHL;
+				//$pd->send_ereminders();
 				
 				//set to defaults
 				$clean = array(
@@ -325,9 +330,9 @@ class PDER_Admin_VHL{
 		wp_enqueue_script('pder-admin-script' );
 		
 		/** Styles **/
-		wp_enqueue_style('pder-admin-style' );
-		wp_enqueue_style('pder-datepicker-css' );
-		wp_enqueue_style('pder-datepicker-css-custom' );
+		wp_enqueue_style('pder-admin-style_vhl' );
+		wp_enqueue_style('pder-datepicker-css_vhl' );
+		wp_enqueue_style('pder-datepicker-css-custom_vhl' );
 	}
 	
 	function get_js_vars(){

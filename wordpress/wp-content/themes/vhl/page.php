@@ -253,7 +253,7 @@ if ( !defined('ABSPATH')) exit;
 
         		//include("wp-content/plugins/email_reminder_vhl/hello.php");
 
-        		echo 'in page.php';
+        		//echo 'in page.php';
 
 				require_once("wp-content/plugins/email_reminder_vhl/pogidude-reminder.php");
         		require_once("wp-content/plugins/email_reminder_vhl/views/ereminder-page.php");
